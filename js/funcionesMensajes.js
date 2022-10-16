@@ -104,7 +104,7 @@ function deleteMensajes(idBoton){
 
 function getMensajes_Car(){
     $.ajax({
-        url:"http://localhost:8080/api/Car/all",
+        url:"http://152.70.120.190:8080/api/Car/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -121,7 +121,7 @@ function getMensajes_Car(){
 
 function getMensajes_Client(){
     $.ajax({
-        url:"http://localhost:8080/api/Client/all",
+        url:"http://152.70.120.190:8080/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
